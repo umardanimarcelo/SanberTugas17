@@ -9,7 +9,7 @@ class TestLogin(unittest.TestCase):
     def setUp(self):
             self.browser = webdriver.Chrome(ChromeDriverManager().install())
  
-    def test_a_success_login(self):
+    def test_a_failed_login_Username(self):
     # steps
         driver = self.browser #buka web browser
         driver.get("https://www.saucedemo.com/") # buka situs
