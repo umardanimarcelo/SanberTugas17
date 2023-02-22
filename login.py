@@ -14,7 +14,7 @@ class TestLogin(unittest.TestCase):
         driver = self.browser #buka web browser
         driver.get("https://www.saucedemo.com/") # buka situs
         time.sleep(3)
-        driver.find_element(By.ID,"user-name").send_keys("standard_user") # isi email
+        driver.find_element(By.ID,"user-name").send_keys("standard_user") # isi username
         time.sleep(1)
         driver.find_element(By.ID,"password").send_keys("secret_sauce") # isi password
         time.sleep(1)
